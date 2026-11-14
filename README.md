@@ -1,4 +1,4 @@
-# 🎬 Movie Recommendation System
+# Movie Recommendation System
 
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://streamlit.io/)
@@ -12,7 +12,7 @@ The system analyzes movie metadata (genres, keywords, cast, crew, and overviews)
 
 ---
 
-## 📌 Features
+##  Features
 
 - **Content-Based Filtering**: Suggests movies similar to a user-selected title by calculating vector cosine similarity across rich metadata tags.
 - **NLP Text Processing**: Utilizes text stemming (via NLTK) and vectorization with `CountVectorizer` to generate a 5,000-dimensional bag-of-words space.
@@ -21,7 +21,7 @@ The system analyzes movie metadata (genres, keywords, cast, crew, and overviews)
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 ```
 TMDB 5000 Dataset (Movies + Credits)
@@ -52,7 +52,7 @@ Streamlit Web Interface (app.py) ──► Top 5 Movie Recommendations
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```bash
 Movies-Recommendation-System/
@@ -65,7 +65,7 @@ Movies-Recommendation-System/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -106,7 +106,7 @@ After running the command, your default browser will automatically open the app 
 
 ---
 
-## 🛠️ Built With
+##  Built With
 
 - **[Python](https://www.python.org/)** - Programming Language
 - **[Streamlit](https://streamlit.io/)** - Web Framework for ML apps
@@ -117,7 +117,7 @@ After running the command, your default browser will automatically open the app 
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - [ ] Fetch and display movie posters using the TMDB API.
 - [ ] Add movie ratings, release dates, and trailer links.
@@ -126,6 +126,6 @@ After running the command, your default browser will automatically open the app 
 
 ---
 
-## 📄 License
+##  License
 
 This project is open-source and available under the [MIT License](LICENSE).
